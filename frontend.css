@@ -1,0 +1,1080 @@
+.parent{
+width: 100%;
+height: 100%;
+}
+.first{
+background-color: rgb(83, 23, 8);
+width: 100%;
+height: 120px;
+}
+.second{
+    background-color: rgb(248, 82, 17);
+    width: 100%;
+    height: 15px;
+}
+.third{
+    display: flex;
+    background-color: rgb(34, 32, 32);
+    width: 100%;
+    height: 4000px;
+}
+
+
+.FRONT{
+    color: white;
+    font-size: 40px;
+    font-family:Bahnschrift Light;
+    position: absolute;
+    top: 40px;
+}
+.MASTER{
+color: rgb(247, 3, 3);
+font-size: 90px;
+font-family:Brush Script MT ;
+position: absolute;
+top: -25px;
+left: 190px;
+}
+.link{
+display: flex;
+list-style-type: none;
+justify-content: right;
+text-decoration: none;
+color: white;
+position: absolute;
+top: 70px;
+left: 60%;
+}
+.link li {
+    color: white;
+    text-decoration: none;
+    
+    }
+    .link li a {
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        
+        }
+        .link li a :hover{
+            font-size: xx-large;
+        }
+.button{
+color: rgb(248, 240, 240); 
+border-radius: 30px;
+background-color: red;
+width: 100px;
+height: 40px;
+font-size: large;
+position: absolute;
+top: -10px;
+border: 0px;
+}
+.path{
+    color: white;
+    font-size: 60px;
+    font-family:Bahnschrift Light;
+    position: absolute;
+    left: 35%;
+    top: 230px;
+}
+#top{
+    color: white;
+    font-size: 25px;
+    font-family:Bahnschrift Light;
+    position: absolute;
+    top: 1790px;
+    left: 35%;
+}
+.line{
+    width: 965px;
+    height: 1px;
+    background-color: #fafcfb;
+    position: absolute;
+    top: 380px;
+    left: 15%;
+
+}
+#line{
+    width: 965px;
+    height: 1px;
+    background-color: #fafcfb;
+    position: absolute;
+    top: 1880px;
+    left: 15%;
+ 
+}
+.guide{
+    color: white;
+    font-size: 20px;
+    font-family:Bahnschrift Light;
+    position: absolute;
+    top: 330px;
+    left: 30%;
+}
+
+.cards{
+    display: flex;
+    align-items: center;   
+}
+.good{
+    background-color: rgb(61, 56, 56);
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 400px;
+    left: 15%;
+}
+.goods{
+    background-color: rgb(61, 56, 56);
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 400px;
+    left: 40%;
+}
+.goodz{
+    background-color: rgb(61, 56, 56);
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 400px;
+    left: 65%;
+}
+.circle{
+    display: flex;
+}
+.one{
+     /* background-color: rgb(161, 17, 17);  */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 420px;
+    left: 67%;
+    border: 20px grey solid;
+
+}
+.two{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   top: 420px;
+   left: 42%;
+   border: 20px grey solid;
+}
+.three{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   top: 420px;
+   left: 17%;
+   border: 20px grey solid;
+}
+#me{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -50px;
+    left: 20%;
+
+}
+ #we{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -50px;
+    left: 20%;
+
+}
+#you{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -50px;
+    left: 20%;
+
+} 
+.begin{
+color: white;
+position: absolute;
+top: 270px;
+left: 28%;
+font-size: 30px;
+}
+.pass{
+color: white;
+position: absolute;
+top: 330px;
+left: 15%;
+font-size:20px ;
+}
+.take{
+color: white;
+background-color: red;
+width: 120px;
+height: 30px;
+border-radius: 20px;
+position: absolute;
+top: 420px;
+left: 28%;
+border: 0px;
+}
+.begins{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .passes{
+    color: white;
+    position: absolute;
+    top: 320px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .takes{
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 420px;
+    left: 28%;
+    border: 0px;
+    }
+
+/* second list cards */
+    .card{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .good_one{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 950px;
+        left: 15%;
+    }
+    .good_two{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 950px;
+        left: 40%;
+    }
+    .good_three{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 950px;
+        left: 65%;
+    }
+    .circles{
+        display: flex;
+    }
+    .ones{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 970px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    .twos{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 970px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+    .threes{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 970px;
+       left: 17%;
+       border: 20px grey solid;
+    }
+    #mez{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #wez{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #youz{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .beginz{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .passes{
+    color: white;
+    position: absolute;
+    top: 330px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .takes{
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 420px;
+    left: 28%;
+    border: 0px;
+    }
+    .begins{
+        color: white;
+        position: absolute;
+        top: 270px;
+        left: 15%;
+        font-size: 30px;
+        }
+    /* second card copy */
+    .cardz{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .gooda{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 1900px;
+        left: 15%;
+    }
+    .goodb{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 1900px;
+        left: 40%;
+    }
+    .goodc{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 1900px;
+        left: 65%;
+    }
+    .circlex{
+        display: flex;
+    }
+    .onex{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 1920px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    .twox{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 1920px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+    .threex{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 1920px;
+       left: 17%;
+       border: 20px grey solid;
+    }
+    #mex{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #wex{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #youx{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .beginsz{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .passesz{
+    color: white;
+    position: absolute;
+    top: 330px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .take1{
+        color: white;
+        background-color:#ceb007;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .take2{
+        color: white;
+        background-color:#068399;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .take3{
+        color: white;
+        background-color:#069943;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .takeA{
+        color: white;
+        background-color: rgb(67, 167, 153);
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .takeB{
+        color: white;
+        background-color:#ceb007;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .takeC{
+        color: white;
+        background-color:#d31515;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .takeD{
+        color: white;
+        background-color: rgb(51, 127, 189);
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+   .takeE{
+        color: white;
+        background-color:#07a121;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .takeF{
+        color: white;
+        background-color:#2e82c7;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .takeG{
+        color: white;
+        background-color:#b8384d ;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .takeH{
+        color: white;
+        background-color:#185b99;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .takeP{
+        color: white;
+        background-color:#6b0736;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    /* forth card */
+    .cardzs{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .goodas{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2450px;
+        left: 15%;
+    }
+    .goodbs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2450px;
+        left: 40%;
+    }
+    .goodcs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2450px;
+        left: 65%;
+    }
+    .circlexs{
+        display: flex;
+    }
+    .onexs{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 2499px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    .twoxs{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 2499px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+    .threexs{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 2499px;
+       left: 17%;
+       border: 20px grey solid;
+    }
+    #mexs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #wexs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #youxs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .beginsz{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .passesz{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .takesz{
+    color: white;
+    background-color: green;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 500px;
+    left: 28%;
+    }
+    /* fifth card */
+    .cardzsz{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .goodasz{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2980px;
+        left: 15%;
+    }
+    .goodbsz{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2980px;
+        left: 40%;
+    }
+    .goodcsz{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2980px;
+        left: 65%;
+    }
+    .circlexsz{
+        display: flex;
+    }
+    .onexsz{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 2999px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    
+    .twoxsz{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 2999px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+     .threexsz{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 2999px;
+       left: 17%;
+       border: 20px grey solid;
+    } 
+    #mexsz{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #wexsz{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #youxsz{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .beginsz{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .passesz{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .takesz{
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 500px;
+    left: 28%;
+    }
+    /* sixth card */
+    .cardzszs{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .goodaszs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 3500px;
+        left: 15%;
+    }
+    .goodbszs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 3500px;
+        left: 40%;
+    }
+    .goodcszs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 3500px;
+        left: 65%;
+    }
+    .circlexszs{
+        display: flex;
+    }
+    .onexszs{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 3530px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    .twoxszs{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 3530px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+    .threexszs{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 3530px;
+       left: 17%;
+       border: 20px grey solid;
+    }
+    #mexszs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #wexszs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #youxszs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .beginsz{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .passesz{
+    color: white;
+    position: absolute;
+    top: 330px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .takesz{
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 420px;
+    left: 28%;
+    }
+    /* fourth div */
+    .fourth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(8, 8, 8);
+        width: 100%;
+        height: 350px;
+
+        
+    }
+    .part2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:none;
+        margin-right: 580px;
+        margin-left: 490px;
+        margin-top: 20px;
+        
+    }
+    .pp{
+        display: flex;
+        flex-direction: row;
+        margin-right: 1020px;
+        
+    }
+    .pp1{
+        display: flex;
+        flex-direction: row;
+        margin-right: 950px;
+    }
+    .FRONT1{
+        color: white;
+        font-size: 30px;
+        font-family:Bahnschrift Light;
+        position: absolute;
+        top: 4200px;
+        left: 4%;
+    }
+    .MASTER1{
+    color: rgb(247, 3, 3);
+    font-size: 60px;
+    font-family:Brush Script MT ;
+    position: absolute;
+    top: 4153px;
+    left:13%;
+    
+    }
+    .link1{
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 4210px;
+    left: 28%;
+    }
+    .link1 li {
+    color: white;
+    text-decoration: none;
+    }
+    .link1 li a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        
+        }
+        .link1 li a :hover{
+            font-size: large;
+        }
+        .hhh{
+            width: 250px;
+            height: 150px;
+            justify-content: center;
+            margin-left: 540px;
+        }
+        .google{
+            width: 95px;
+            height: 45px;
+          margin-left: 8px;
+           
+        }
+        .twitter{
+            width: 30px;
+            height: 30px;
+         margin-left:8px;
+            
+        }
+        .linkedin{
+            width: 30px;
+            height: 30px;
+           margin-left: 8px;
+        }
+        .instagram{
+            width: 30px;
+            height: 30px;
+            margin-left:8px;
+        }
+        .top{
+            width: 260px;
+            height: 250px;
+            top: 1500px;
+            position:absolute;
+            left:550px;
+        }
+        .made{
+       color: lightgray;
+       position: absolute;
+       top: 4400px;
+       left: 3%;
+        }
+        .mn{
+            color: lightgray;
+            position: absolute;
+            top: 4400px;
+            left: 67%;
+            
+        }
+        .support{
+       color: rgb(231, 41, 7);
+       position: absolute;
+       top: 4360px;
+       left: 68%;
+        }
